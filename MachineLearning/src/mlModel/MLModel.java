@@ -10,7 +10,7 @@ public class MLModel {
 	
 
     public static void main(String[] args) throws Exception {
-        List<double[]> data = ExcelReader.readExcel("path/to/your/excel.xlsx");
+        List<double[]> data = ExcelReader.readExcel("excel/RightToVote.xlsx");
 
         int trainSize = 75;
         double[][] trainData = new double[trainSize][3];
